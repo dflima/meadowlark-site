@@ -1,0 +1,18 @@
+{
+  "name": "site",
+  "version": "0.0.0",
+  "description": "",
+  "main": "meadowlark.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Danilo Lima",
+    "email": "dplusl@icloud.com",
+    "url": "http://twitter.com/danlima"
+  },
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~4.13.3"
+  }
+}
