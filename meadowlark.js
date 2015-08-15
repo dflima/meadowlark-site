@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var handlebars = require('express3-handlebars').create({defaultLayout:'main'});
+var handlebars = require('express-handlebars').create({defaultLayout:'main'});
 var fortunes = [
     'Conquer your fears or they will conquer you.',
     'Rivers need springs.',
