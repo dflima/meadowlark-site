@@ -36,11 +36,10 @@ suite('Cross-Page Tests', function() {
     test('visiting the "request group rate" page directly should result' +
         'in an empty referrer field',
         function(done) {
+            var referrer = 'http://104.131.25.157:8080/tours/request-group-rate';
             browser.visit(referrer, function() {
-                browser.clickLink('.requestGroupRate', function() {
-                    assert(browser.field('referrer').value === '');
-                    done();
-                });
+                assert(browser.field('referrer').value === '');
+                done();
             });
         }
     );
